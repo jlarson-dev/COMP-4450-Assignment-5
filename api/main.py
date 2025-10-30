@@ -7,6 +7,7 @@ import pandas as pd
 from datetime import datetime
 import os
 import json
+from pathlib import Path
 
 # ========================
 # API CONFIGURATION
@@ -29,13 +30,13 @@ except Exception as e:
 # LOGGING CONFIGURATION
 # ========================
 LOG_DIR = "../logs"
-LOG_FILE = os.path.join(LOG_DIR, "prediction_logs.json")
+LOG_FILE = Path("../logs/prediction_logs.json")
 
 # Ensure /logs directory exists (Docker volume will mount here)
 os.makedirs(LOG_DIR, exist_ok=True)
 
 def log_prediction(request_text: str, predicted_sentiment: str, true_sentiment: str):
-    """Append a log entry as a JSON line to /logs/prediction_logs.json"""
+    """Append a log entry as an element in a valid JSON array."""
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "request_text": request_text,
@@ -43,9 +44,27 @@ def log_prediction(request_text: str, predicted_sentiment: str, true_sentiment: 
         "true_sentiment": true_sentiment
     }
 
-    # Append as a new JSON line
-    with open(LOG_FILE, "a") as f:
-        f.write(json.dumps(log_entry) + "\n")
+    # Ensure the log file exists
+    if LOG_FILE.exists():
+        try:
+            with open(LOG_FILE, "r", encoding="utf-8") as f:
+                logs = json.load(f)
+                # Ensure it's a list
+                if not isinstance(logs, list):
+                    logs = []
+        except json.JSONDecodeError:
+            # If file is empty or invalid JSON, start fresh
+            logs = []
+    else:
+        logs = []
+
+    # Append the new entry
+    logs.append(log_entry)
+
+    # Write back as valid JSON array
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(logs, f, indent=2)
+
 
 
 # ========================

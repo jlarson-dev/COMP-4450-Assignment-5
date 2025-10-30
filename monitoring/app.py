@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import joblib
 
 st.title("Movie Review Sentiment Analyzer")
@@ -6,36 +7,28 @@ st.title("Movie Review Sentiment Analyzer")
 st.write("This analyzer accepts movie reviews as input and determines if the review has positive or negative sentiment.")
 
 @st.cache_data
-def load_model():
-    """Loads the pre-trained sentiment analyzer."""
-    model = joblib.load('sentiment_model.pkl')
-    return model
+def load_logs():
+    """Loads the shared logs folder for analysis."""
+    logs = pd.read_json("../logs/prediction_logs.json")
+    logs["length"] = logs["request_text"].str.len()
+    return logs
 
-def get_sentiment(input: str, model):
-    """Performs a prediction on a string and cleans up the output."""
-    predicted = model.predict([input])
-    output = predicted[0]
-    return output
+@st.cache_data
+def load_imdb():
+    """Loads the IMDB dataset"""
+    imdb = pd.read_csv("../IMDB Dataset.csv")
+    imdb["length"] = imdb["review"].str.len()
+    return imdb
 
-model = load_model()
+logs = load_logs()
+imdb = load_imdb()
 
 # --- App ---
 
-user_input = st.text_area(label='Input movie review for analysis:')
+st.text(
+    logs
+)
 
-analyze_button = st.button(label='Analyse')
-
-if analyze_button:
-    if len(user_input) == 0:
-        st.write("Please input a movie review for analysis.")
-    else:
-        results = get_sentiment(user_input, model)
-        if results == 'positive':
-            st.success('Positive')
-        elif results == 'negative':
-            st.error('Negative')
-        probs = model.predict_proba([user_input])
-        prob_neg = probs[0][0]
-        prob_pos = probs[0][1]
-        st.write(f"Negative sentiment prob: {prob_neg}")
-        st.write(f"Positive sentiment prob: {prob_pos}")
+st.text(
+    imdb
+)
