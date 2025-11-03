@@ -41,7 +41,8 @@ def log_prediction(request_text: str, predicted_sentiment: str, true_sentiment: 
         "timestamp": datetime.now().isoformat(),
         "request_text": request_text,
         "predicted_sentiment": predicted_sentiment,
-        "true_sentiment": true_sentiment
+        "true_sentiment": true_sentiment,
+        "length": len(request_text)
     }
 
     # Ensure the log file exists
@@ -72,7 +73,7 @@ def log_prediction(request_text: str, predicted_sentiment: str, true_sentiment: 
 # ========================
 class Review(BaseModel):
     text: str
-    true_sentiment: str = None  # optional, but needed for logging
+    true_sentiment: str = None
 
 
 # ========================
@@ -114,7 +115,6 @@ def post_pred(input: Review):
     """
     predicted = predict_sentiment(input.text)
 
-    # If true_sentiment was provided, log it
     true_sentiment = input.true_sentiment if input.true_sentiment else "unknown"
     log_prediction(input.text, predicted, true_sentiment)
 
