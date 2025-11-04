@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
-import joblib
 import matplotlib.pyplot as plt
 
 from sklearn.metrics import accuracy_score
 
-st.title("Movie Review Sentiment Analyzer")
-
-st.write("This analyzer accepts movie reviews as input and determines if the review has positive or negative sentiment.")
+st.title("Movie Review Sentiment Data Drift Analyzer")
 
 def load_logs():
     """Loads the shared logs folder for analysis."""
@@ -25,6 +22,12 @@ logs = load_logs()
 imdb = load_imdb()
 
 # --- App ---
+# Accuracy & Precision
+
+acc = accuracy_score(logs['true_sentiment'], logs['predicted_sentiment'])
+if acc < 0.8:
+    st.error("Warning: Accuracy is below 80%.")
+st.write(f"Accuracy: {acc}")
 
 # Data Drift Analysis - distribution of review lengths
 
@@ -69,9 +72,3 @@ ax2.set_title("IMDB Dataset")
 ax2.set_xlabel("Sentiment")
 
 st.pyplot(fig)
-
-
-# Accuracy & Precision
- 
-acc = accuracy_score(logs['true_sentiment'], logs['predicted_sentiment'])
-st.write(acc)
