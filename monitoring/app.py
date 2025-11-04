@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
 
 st.title("Movie Review Sentiment Analyzer")
 
@@ -28,7 +28,7 @@ imdb = load_imdb()
 
 # Data Drift Analysis - distribution of review lengths
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4), sharey=True)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
 
 ax1.hist(logs['length'], bins=20, color='skyblue', edgecolor='black')
 ax1.set_title("Logged Reviews")
@@ -42,7 +42,7 @@ st.pyplot(fig)
 
 # Target Drift Analysis - distribution of predicted sentiments
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4), sharey=True)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
 
 
 color_map = {
@@ -73,5 +73,5 @@ st.pyplot(fig)
 
 # Accuracy & Precision
  
-cm = confusion_matrix(logs['true_sentiment'], logs['predicted_sentiment'])
-st.write(cm)
+acc = accuracy_score(logs['true_sentiment'], logs['predicted_sentiment'])
+st.write(acc)
