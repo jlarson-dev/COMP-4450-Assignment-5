@@ -1,4 +1,4 @@
-IMAGE_NAME := movie-sentiment-app
+IMAGE_NAME := data-drift-app
 
 build:
 	@echo "Building Docker image $(IMAGE_NAME)"
