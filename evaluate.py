@@ -1,9 +1,11 @@
 import json
 import requests 
+import os
 
-from typing import List, Optional
+from typing import List
 from pydantic import BaseModel, TypeAdapter, ValidationError
 from pathlib import Path
+from sklearn.metrics import confusion_matrix
 
 
 class Evaluator():
@@ -47,15 +49,55 @@ class Evaluator():
             
         return self._validate_data(data)
         
+    def _delete_logs(self):
+        """Deletes log file"""
+        if os.path.exists(self.log_path):
+            os.remove(self.log_path)
+            print(f"Deleted existing log file: {self.log_path}")
         
-    def post_dat(self, method):
-        """Iterates over dat file, POSTing to /predict endpoint. Method determines if function will write over old log file or append to existing one. w to write over, a to append"""
+    def post_dat(self, method="a"):
+        """Iterates over dat file, POSTing to /predict endpoint. Method determines handling of log file. 'a' will append to log file, while 'd' will delete the log file first"""
+        url = "http://127.0.0.1:8000/predict"
+
         match method:
-            case 'r':
+            case "a":
                 pass
-            case 'w':
+            case "d":
+                self._delete_logs()
+            case _:
                 pass
+        
+        predictions = list()
+        true_labels = list()
+        for entry in self.dat:
+            response = requests.post(
+                url,
+                json={
+                    "text": entry.text,
+                    "true_sentiment": entry.true_label
+                }
+            )
+            try:
+                data = response.json()
+            except Exception:
+                print(f"Non-JSON response: {response.text}")
+                continue
+            
+                    # Assuming the API returns something like {'predicted_sentiment': 'positive'}
+            predicted = data.get("sentiment")
+            if predicted is not None:
+                predictions.append(predicted)
+                true_labels.append(entry.true_label)
+            else:
+                print(f"Missing prediction in response: {data}")
+
+        # Accuracy
+        correct = sum(p == t for p, t in zip(predictions, true_labels))
+        total = len(true_labels)
+        accuracy = correct / total if total > 0 else 0
+
+        print(f"\nModel accuracy: {accuracy:.2%} ({correct}/{total} correct)")
                         
 if __name__ == "__main__":
     eval = Evaluator(json_path='test.json', log_path='./logs/prediction_logs.json')
-    
+    eval.post_dat(method='d')
