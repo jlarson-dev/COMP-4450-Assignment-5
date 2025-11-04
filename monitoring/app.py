@@ -1,20 +1,22 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
+from pathlib import Path
 from sklearn.metrics import accuracy_score
 
 st.title("Movie Review Sentiment Data Drift Analyzer")
 
 def load_logs():
     """Loads the shared logs folder for analysis."""
-    logs = pd.read_json("../logs/prediction_logs.json")
+    logs = pd.read_json('/app/logs/prediction_logs.json')
     return logs
 
 @st.cache_data
 def load_imdb():
     """Loads the IMDB dataset"""
-    imdb = pd.read_csv("../IMDB Dataset.csv")
+    imdb = pd.read_csv("./IMDB Dataset.csv")
     imdb["length"] = imdb["review"].str.len()
     return imdb
 

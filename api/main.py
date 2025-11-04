@@ -29,8 +29,8 @@ except Exception as e:
 # ========================
 # LOGGING CONFIGURATION
 # ========================
-LOG_DIR = "../logs"
-LOG_FILE = Path("../logs/prediction_logs.json")
+LOG_DIR = "/app/logs"
+LOG_FILE = Path("/app/logs/prediction_logs.json")
 
 # Ensure /logs directory exists (Docker volume will mount here)
 os.makedirs(LOG_DIR, exist_ok=True)

@@ -1,5 +1,5 @@
 IMAGE_NAME := movie-sentiment-api
-LOGS_DIR := $(realpath $(PWD)/../logs)
+LOGS_DIR := $(PWD)/../logs
 
 build:
 	@echo "Building Docker image $(IMAGE_NAME)"
