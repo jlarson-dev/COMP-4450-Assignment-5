@@ -1,0 +1,1220 @@
+[
+  {
+    "timestamp": "2025-11-04T16:12:35.855142",
+    "request_text": "An absolute masterpiece. The direction, acting, and score were all flawless.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 76
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.860328",
+    "request_text": "A complete waste of time. The plot was nonsensical and the characters were flat.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 80
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.872272",
+    "request_text": "I was pleasantly surprised by this film. It had a lot of heart.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 63
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.882629",
+    "request_text": "The movie tried to be clever but ended up being confusing and pretentious.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 74
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.892362",
+    "request_text": "A fun ride from start to finish! Highly recommend for a family night.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 69
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.896002",
+    "request_text": "I've seen better acting in a high school play. Truly dreadful.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 62
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.912268",
+    "request_text": "The cinematography was stunning, every frame was like a painting.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 65
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.923032",
+    "request_text": "It dragged on for far too long. Could have been 30 minutes shorter.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 67
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.934035",
+    "request_text": "A heartwarming story that will stay with you long after the credits roll.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 73
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.944023",
+    "request_text": "The dialogue was so clunky and unnatural. It took me right out of the movie.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 76
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.948027",
+    "request_text": "Hilarious! I haven't laughed this hard at a movie in years.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 59
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.965571",
+    "request_text": "Predictable from the first scene. No surprises, no tension.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 59
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.976051",
+    "request_text": "The lead actor gave a powerhouse performance.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 45
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.987305",
+    "request_text": "The special effects were cheap and unconvincing.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 48
+  },
+  {
+    "timestamp": "2025-11-04T16:12:35.994177",
+    "request_text": "A thought-provoking film that challenges the audience.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 54
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.008583",
+    "request_text": "I was bored to tears. Nothing interesting happened.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 51
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.018427",
+    "request_text": "The chemistry between the two leads was undeniable.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 51
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.029976",
+    "request_text": "A disappointing sequel that fails to capture the magic of the original.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 71
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.039976",
+    "request_text": "An edge-of-your-seat thriller with twists you won't see coming.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 63
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.050727",
+    "request_text": "The soundtrack was generic and forgettable.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 43
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.061575",
+    "request_text": "Visually spectacular and emotionally resonant.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.071961",
+    "request_text": "The plot holes were so big you could drive a truck through them.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 64
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.083519",
+    "request_text": "A must-see for any fan of the genre.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.094722",
+    "request_text": "It felt like a cheap knock-off of a much better movie.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 54
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.105281",
+    "request_text": "The ending was perfect and incredibly satisfying.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 49
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.110510",
+    "request_text": "The pacing was all over the place, some scenes were rushed while others dragged.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 80
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.127114",
+    "request_text": "A truly unique and original vision.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.137893",
+    "request_text": "I couldn't connect with any of the characters.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.149109",
+    "request_text": "The costume design was exquisite and detailed.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.160852",
+    "request_text": "The humor felt forced and most of the jokes didn't land.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 56
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.167752",
+    "request_text": "A powerful and moving documentary.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 34
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.182486",
+    "request_text": "This film is a mess from start to finish.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 41
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.186689",
+    "request_text": "I was captivated by the story.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 30
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.204300",
+    "request_text": "The villain was not threatening at all.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.213971",
+    "request_text": "A brilliant script with sharp, witty dialogue.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.226836",
+    "request_text": "The movie just felt empty and soulless.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.237979",
+    "request_text": "The action sequences were breathtaking.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.249103",
+    "request_text": "A story we've seen a hundred times before, with nothing new to add.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 67
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.260229",
+    "request_text": "An instant classic. Will be rewatching this for years to come.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 62
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.270958",
+    "request_text": "The director clearly had no idea what they were doing.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 54
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.281881",
+    "request_text": "It's a simple story, but told beautifully.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 42
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.293024",
+    "request_text": "Just plain bad. I regret watching it.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 37
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.298102",
+    "request_text": "The world-building was immersive and fascinating.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 49
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.314914",
+    "request_text": "The ending felt rushed and unsatisfying.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 40
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.326456",
+    "request_text": "A feel-good movie that will leave you smiling.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.337625",
+    "request_text": "I was checking my watch the whole time.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.348366",
+    "request_text": "The supporting cast was just as strong as the leads.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 52
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.359433",
+    "request_text": "The movie takes itself way too seriously.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 41
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.369941",
+    "request_text": "A cinematic achievement on every level.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.374940",
+    "request_text": "The writing is lazy and uninspired.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.393401",
+    "request_text": "Absolutely charming and delightful.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.404484",
+    "request_text": "A confusing plot that never really comes together.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 50
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.409094",
+    "request_text": "The practical effects were impressive.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.426862",
+    "request_text": "It was so bad it was almost funny.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 34
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.436611",
+    "request_text": "A gripping tale of survival.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 28
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.450058",
+    "request_text": "The movie was emotionally manipulative.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.461524",
+    "request_text": "The director's passion for the subject is evident.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 50
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.473592",
+    "request_text": "I can't believe I paid money to see this.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 41
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.483210",
+    "request_text": "A visually stunning and epic adventure.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.495613",
+    "request_text": "The characters made decisions that made no sense.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 49
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.508288",
+    "request_text": "The score perfectly complemented the film's tone.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 49
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.519458",
+    "request_text": "A movie with a great premise but poor execution.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 48
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.531953",
+    "request_text": "I was on the edge of my seat the entire time.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 45
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.544801",
+    "request_text": "The movie was a total snoozefest.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 33
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.556621",
+    "request_text": "A beautiful and poignant film about love and loss.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 50
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.559621",
+    "request_text": "The script needed a few more rewrites.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.579085",
+    "request_text": "The child actors were surprisingly good.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 40
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.590575",
+    "request_text": "It was trying to be deep but came off as shallow.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 49
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.601113",
+    "request_text": "A fantastic adaptation of the book.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.613310",
+    "request_text": "The movie completely missed the point of the source material.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 61
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.623977",
+    "request_text": "The stunt work was incredible.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 30
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.635508",
+    "request_text": "The story was full of clich\u00e9s.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 30
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.646289",
+    "request_text": "A mind-bending sci-fi that will make you think.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "positive",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.659872",
+    "request_text": "The movie was a cheap cash grab.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 32
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.668274",
+    "request_text": "The production design was top-notch.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.683423",
+    "request_text": "I found the main character to be very annoying.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.695485",
+    "request_text": "A refreshing and original comedy.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 33
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.707511",
+    "request_text": "The movie was just a series of loud noises and explosions.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 58
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.718119",
+    "request_text": "The film handles its sensitive subject matter with grace.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 57
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.730200",
+    "request_text": "The plot twist was obvious from a mile away.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 44
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.733200",
+    "request_text": "A true cinematic experience. See it on the biggest screen possible.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 67
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.753164",
+    "request_text": "I felt nothing for the characters.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 34
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.762857",
+    "request_text": "The editing was sharp and kept the pace moving.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.776999",
+    "request_text": "The movie was a technical mess, with bad sound and lighting.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 60
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.787763",
+    "request_text": "A genuinely scary horror film.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "positive",
+    "length": 30
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.799660",
+    "request_text": "Not scary at all, just a bunch of cheap jump scares.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 52
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.804639",
+    "request_text": "The film's message was powerful and timely.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 43
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.822293",
+    "request_text": "The message was heavy-handed and preachy.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 41
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.831984",
+    "request_text": "I loved the quirky and eccentric characters.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 44
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.846470",
+    "request_text": "The movie was an insult to my intelligence.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 43
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.857827",
+    "request_text": "An underrated gem that deserves more attention.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.869516",
+    "request_text": "Overhyped and underwhelming.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 28
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.874226",
+    "request_text": "The director's style is on full display here.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "positive",
+    "length": 45
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.893016",
+    "request_text": "A soulless corporate product.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 29
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.904092",
+    "request_text": "A perfect movie for a rainy day.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 32
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.915763",
+    "request_text": "I wanted to walk out of the theater halfway through.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 52
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.926481",
+    "request_text": "The film's ambiguity is its greatest strength.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.938553",
+    "request_text": "The movie was just confusing for the sake of being confusing.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 61
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.949212",
+    "request_text": "A wild and entertaining ride.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 29
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.960856",
+    "request_text": "I've had more exciting naps.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 28
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.969821",
+    "request_text": "The attention to historical detail was impressive.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 50
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.982070",
+    "request_text": "The movie played fast and loose with the facts.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.994281",
+    "request_text": "A triumph of independent filmmaking.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:36.999308",
+    "request_text": "It looked like it was filmed on a shoestring budget, and not in a good way.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 75
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.016824",
+    "request_text": "The film has a great sense of humor.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.026803",
+    "request_text": "The jokes were juvenile and offensive.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.039483",
+    "request_text": "A complex and layered story.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 28
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.050687",
+    "request_text": "A simplistic and one-dimensional story.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.062594",
+    "request_text": "The final act was emotionally devastating in the best way.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 58
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.073782",
+    "request_text": "The movie fell apart in the third act.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.084479",
+    "request_text": "A bold and audacious film.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 26
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.095859",
+    "request_text": "The movie played it way too safe.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 33
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.106865",
+    "request_text": "I was thoroughly entertained.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 29
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.118846",
+    "request_text": "I was thoroughly bored.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 23
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.123846",
+    "request_text": "The film's atmosphere was thick with tension.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 45
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.141346",
+    "request_text": "There was absolutely no tension or suspense.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 44
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.153848",
+    "request_text": "A masterpiece of suspense.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 26
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.164645",
+    "request_text": "A predictable and dull thriller.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 32
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.175966",
+    "request_text": "The characters felt like real people.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "positive",
+    "length": 37
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.187533",
+    "request_text": "The characters were walking stereotypes.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 40
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.191532",
+    "request_text": "I can't wait to see what this director does next.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "positive",
+    "length": 49
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.210712",
+    "request_text": "I hope this director never makes another movie.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.223791",
+    "request_text": "A stunning debut from a promising new filmmaker.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 48
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.234776",
+    "request_text": "An amateurish effort that should have stayed in film school.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 60
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.246779",
+    "request_text": "The film is a visual feast.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 27
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.258799",
+    "request_text": "The film was ugly to look at.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 29
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.270129",
+    "request_text": "A smart and sophisticated comedy of manners.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 44
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.281055",
+    "request_text": "A dumb and crude comedy with no redeeming qualities.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 52
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.293158",
+    "request_text": "The film's social commentary was sharp and insightful.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 54
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.304763",
+    "request_text": "The movie's attempt at social commentary was clumsy and obvious.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 64
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.307791",
+    "request_text": "A truly inspiring story of human resilience.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 44
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.327552",
+    "request_text": "A depressing and miserable experience.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.339484",
+    "request_text": "The film had a wonderful, whimsical quality.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 44
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.351413",
+    "request_text": "The movie was trying to be whimsical but just came off as twee.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 63
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.362746",
+    "request_text": "A perfect blend of comedy and drama.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.375344",
+    "request_text": "The movie couldn't decide if it wanted to be a comedy or a drama, and failed at both.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 85
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.378343",
+    "request_text": "The ensemble cast was fantastic.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 32
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.401627",
+    "request_text": "A waste of a talented cast.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 27
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.415774",
+    "request_text": "A compelling character study.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 29
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.429234",
+    "request_text": "The main character was uninteresting and I didn't care what happened to them.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 77
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.442410",
+    "request_text": "The film is a technical marvel.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 31
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.454918",
+    "request_text": "The movie felt like it was made by people who don't know how to make movies.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 76
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.458211",
+    "request_text": "A delightful romp.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 18
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.475987",
+    "request_text": "A tedious slog.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 15
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.492228",
+    "request_text": "The film's slow burn was incredibly effective.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.504332",
+    "request_text": "The movie was just slow and boring.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.515994",
+    "request_text": "A heartfelt tribute to a bygone era.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.528827",
+    "request_text": "The movie was stuck in the past and felt dated.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 47
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.531827",
+    "request_text": "The film's non-linear narrative was brilliant.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.551728",
+    "request_text": "The non-linear narrative just made the story confusing.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 55
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.564236",
+    "request_text": "A cinematic poem.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 17
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.575559",
+    "request_text": "A self-indulgent mess.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 22
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.587765",
+    "request_text": "The film had a great sense of place.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 36
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.600392",
+    "request_text": "The setting was generic and uninspired.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.612331",
+    "request_text": "A thrilling conclusion to the trilogy.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.623973",
+    "request_text": "A disappointing end to a once-great series.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 43
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.635715",
+    "request_text": "The film is pure escapism.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 26
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.647214",
+    "request_text": "The movie was so grim and unpleasant, I wish I could escape from the memory of it.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "negative",
+    "length": 82
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.659587",
+    "request_text": "A tour de force of acting.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 26
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.671260",
+    "request_text": "The acting was wooden and unconvincing.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 39
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.683764",
+    "request_text": "The film's use of color was masterful.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 38
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.695462",
+    "request_text": "The color grading was distracting and ugly.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 43
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.703283",
+    "request_text": "A subtle and nuanced performance.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 33
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.719351",
+    "request_text": "The actor was over-the-top and chewing the scenery.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 51
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.731033",
+    "request_text": "The film had a lot of charm.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 28
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.743035",
+    "request_text": "The movie was completely devoid of charm.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 41
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.753709",
+    "request_text": "A clever satire of modern life.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 31
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.766187",
+    "request_text": "The movie's attempt at satire was toothless and unfunny.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 56
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.779704",
+    "request_text": "The film was a breath of fresh air.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.790959",
+    "request_text": "The movie was stale and derivative.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.804093",
+    "request_text": "A deeply moving and personal story.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 35
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.815667",
+    "request_text": "I couldn't have cared less about the story.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 43
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.827665",
+    "request_text": "The film was a technical and artistic triumph.",
+    "predicted_sentiment": "positive",
+    "true_sentiment": "positive",
+    "length": 46
+  },
+  {
+    "timestamp": "2025-11-04T16:12:37.840303",
+    "request_text": "The movie was a failure on every level.",
+    "predicted_sentiment": "negative",
+    "true_sentiment": "negative",
+    "length": 39
+  }
+]
