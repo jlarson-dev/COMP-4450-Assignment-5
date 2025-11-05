@@ -82,8 +82,7 @@ class Evaluator():
             except Exception:
                 print(f"Non-JSON response: {response.text}")
                 continue
-            
-                    # Assuming the API returns something like {'predicted_sentiment': 'positive'}
+
             predicted = data.get("sentiment")
             if predicted is not None:
                 predictions.append(predicted)
