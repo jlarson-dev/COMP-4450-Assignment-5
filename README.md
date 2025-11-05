@@ -5,6 +5,7 @@ This application contains two microservices: a monitoring dashboard which can de
 ## Architecture
 
 The folder/file structure of the project is the following.
+```
 C:.
 │   evaluate.py
 │   Makefile
@@ -31,7 +32,7 @@ C:.
         Makefile
         prediction_logs.json
         requirements.txt
-
+```
 
 ## How to Use Each Service
 
@@ -53,12 +54,15 @@ The API documentation can be found at http://127.0.0.1:8000/docs
 
 #### Endpoints
 http://127.0.0.1:8000/health: GET endpoint confirming whether the API is running or not. 
-    **Example:** `curl http://127.0.0.1:8000/health`
+
+**Example:** `curl http://127.0.0.1:8000/health`
+
 http://127.0.0.1:8000/predict: POST endpoint that takes an input movie review and the true sentiment of the reviewer and returns the predicted sentiment of the review (positive or negative). It then logs the predicted sentiment, true sentiment, length of the review, and the time stamp.
-    **Example:** 
-    curl -X POST http://localhost:8000/predict \
-     -H "Content-Type: application/json" \
-     -d '{"text": "The movie was amazing and full of heart.", "true_sentiment": "positive"}'
+
+**Example:** 
+curl -X POST http://localhost:8000/predict \
+    -H "Content-Type: application/json" \
+    -d '{"text": "The movie was amazing and full of heart.", "true_sentiment": "positive"}'
 
 ### Monitoring Dashboard
 
